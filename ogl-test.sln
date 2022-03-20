@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paket", "paket", "{4DAEC4FA-1561-4AEB-8184-F62FF9BABADA}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mg-test", "mg-test\mg-test.csproj", "{EDC5FDAA-FE3F-43DB-AC1E-53D6FC670D57}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "mg-test-fs", "mg-test-fs\mg-test-fs.fsproj", "{119371C1-25C8-4D4D-A717-B2EFF6F4187C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC5FDAA-FE3F-43DB-AC1E-53D6FC670D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC5FDAA-FE3F-43DB-AC1E-53D6FC670D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC5FDAA-FE3F-43DB-AC1E-53D6FC670D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC5FDAA-FE3F-43DB-AC1E-53D6FC670D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119371C1-25C8-4D4D-A717-B2EFF6F4187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119371C1-25C8-4D4D-A717-B2EFF6F4187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119371C1-25C8-4D4D-A717-B2EFF6F4187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119371C1-25C8-4D4D-A717-B2EFF6F4187C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
