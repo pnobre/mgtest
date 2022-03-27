@@ -17,7 +17,7 @@ type Game1 () as this =
         new GraphicsDeviceManager
             ( this
               , GraphicsProfile = GraphicsProfile.HiDef              
-              , IsFullScreen = true )
+              , IsFullScreen = false )
     
     let mutable cameraTarget = Unchecked.defaultof<_>
     let mutable cameraPosition = Unchecked.defaultof<_>
@@ -34,7 +34,7 @@ type Game1 () as this =
     
     let (triangleVertices: VertexPositionColor[]) =
         [| VertexPositionColor (Vector3(0.f, 20.f, 0.f), Color.Red)
-           VertexPositionColor (Vector3(20.f, -20.f, 0.f), Color.Green)
+           VertexPositionColor (Vector3(-20.f, -20.f, 0.f), Color.Green)
            VertexPositionColor (Vector3(20.f, -20.f, 0.f), Color.Blue) |]        
     
     override x.Initialize () =

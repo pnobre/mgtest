@@ -24,7 +24,7 @@ public class Game1 : Game
         Content.RootDirectory = "Content";
         IsMouseVisible = true; 
         graphics.GraphicsProfile = GraphicsProfile.HiDef;
-        graphics.IsFullScreen = true;
+        graphics.IsFullScreen = false;
         graphics.ApplyChanges(); 
     }
 
